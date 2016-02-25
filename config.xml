@@ -36,9 +36,10 @@
   <!-- gap:plugin name="org.apache.cordova.network-information"/ -->
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <!-- icons -->
+  <!-- icons and splash screens-->
   <icon src="icon.png"/>
-  <!-- android icon and splash screen -->
+  <gap:splash src="splash.png"/>
+  <!-- android icons and splash screens -->
   <platform name="android">
     <!-- icons -->
     <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="ldpi"/>
@@ -62,7 +63,6 @@
   <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
   <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
 
-  <gap:splash src="splash.png"/>
   <gap:splash src="www/res/screen/blackberry/screen-225.png" gap:platform="blackberry"/>
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480"/>
   <gap:splash src="www/res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960"/>
