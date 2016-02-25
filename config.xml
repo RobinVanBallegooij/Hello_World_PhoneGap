@@ -36,15 +36,11 @@
   <!-- gap:plugin name="org.apache.cordova.network-information"/ -->
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
+  
   <!-- icons and splash screens-->
-  <!--
-  <icon src="icon.png"/>
-  <gap:splash src="splash.png"/>
--->
   <icon src="ipokedex_icon.png"/>
   <gap:splash src="splash.png"/>
   <!-- android icons and splash screens -->
-  <!--
   <platform name="android">
 
     <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="ldpi"/>
@@ -59,6 +55,7 @@
     <allow-intent href="market:*"/>
   </platform>
 
+  <!--
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
   <icon src="www/res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
