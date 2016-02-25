@@ -41,12 +41,13 @@
   <icon src="ipokedex_icon.png"/>
   <gap:splash src="splash.png"/>
   <!-- android icons and splash screens -->
+  <!--
   <platform name="android">
 
-    <icon src="www/res/icon/android/ipokedex_icon.png" gap:qualifier="ldpi"/>
-    <icon src="www/res/icon/android/ipokedex_icon.png" gap:qualifier="mdpi"/>
-    <icon src="www/res/icon/android/ipokedex_icon.png" gap:qualifier="hdpi"/>
-    <icon src="www/res/icon/android/ipokedex_icon.png" gap:qualifier="xhdpi"/>
+    <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="ldpi"/>
+    <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="mdpi"/>
+    <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="hdpi"/>
+    <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="xhdpi"/>
 
     <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-ldpi"/>
     <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-mdpi"/>
@@ -54,6 +55,7 @@
     <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-xhdpi"/>
     <allow-intent href="market:*"/>
   </platform>
+-->
 
   <!--
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
