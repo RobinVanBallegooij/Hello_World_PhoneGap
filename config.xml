@@ -46,10 +46,10 @@
     <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="hdpi"/>
     <icon src="res/icon/android/ipokedex_icon.png" gap:qualifier="xhdpi"/>
     <!-- splash screens -->
-    <gap:splash src="www/res/screen/android/pokedex.jpg" gap:qualifier="port-ldpi"/>
-    <gap:splash src="www/res/screen/android/pokedex.jpg" gap:qualifier="port-mdpi"/>
-    <gap:splash src="www/res/screen/android/pokedex.jpg" gap:qualifier="port-hdpi"/>
-    <gap:splash src="www/res/screen/android/pokedex.jpg" gap:qualifier="port-xhdpi"/>
+    <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-ldpi"/>
+    <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-mdpi"/>
+    <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-hdpi"/>
+    <gap:splash src="res/screen/android/pokedex.jpg" gap:qualifier="port-xhdpi"/>
   </platform>
 
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
